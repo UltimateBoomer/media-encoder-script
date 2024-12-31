@@ -32,8 +32,6 @@ def convert(src: Path, tgt: Path):
             "libopus",
             "-b:a",
             "128k",
-            "-ac",
-            "6",
             "-c:s",
             "copy",
             "-map",
